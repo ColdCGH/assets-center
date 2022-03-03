@@ -1,16 +1,11 @@
 <?php
 
-
-namespace Wbk\AssetCenter\service;
-
-
+namespace Asset\Service;
 
 use Exception;
-use Wbk\AssetCenter\util\ConfigUtil;
-use Wbk\AssetCenter\util\DesCrypt;
-use Wbk\AssetCenter\util\RequestUtil;
-use Wbk\AssetCenter\util\StringUtil;
-use Wbk\AssetCenter\util\TokenUtil;
+use Asset\Util\ConfigUtil;
+use Asset\Util\RequestUtil;
+use Asset\Util\StringUtil;
 
 class Base
 {

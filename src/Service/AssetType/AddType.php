@@ -1,8 +1,8 @@
 <?php
 
-namespace Wbk\AssetCenter\service\AssetType;
+namespace Asset\Service\AssetType;
 
-use Wbk\AssetCenter\service\Base;
+use Asset\Service\Base;
 
 class AddType extends Base
 {

@@ -1,5 +1,5 @@
 <?php
-namespace  Wbk\AssetCenter\util;
+namespace  Asset\Util;
 
 class RequestUtil
 {

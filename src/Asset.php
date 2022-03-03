@@ -1,21 +1,21 @@
 <?php
 
-namespace Wbk\AssetCenter;
+namespace Asset;
 
-use Wbk\AssetCenter\Factory\Account;
-use Wbk\AssetCenter\Factory\AssetType;
+use Asset\Factory\Account;
+use Asset\Factory\AssetType;
 
 /**
- * Class Factory
+ * Class Asset
  * @method static Account Account()   资产账号
  * @method static AssetType AssetType()   资产类型
  * @package sffi
  */
-class Factory
+class Asset
 {
     public static function make($name)
     {
-        $application = "Wbk\\AssetCenter\\Factory\\{$name}";
+        $application = "factory\\{$name}";
 
         return new $application();
     }

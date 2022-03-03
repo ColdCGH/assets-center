@@ -1,16 +1,16 @@
 <?php
 
 
-namespace Wbk\AssetCenter\Factory;
+namespace Asset\Factory;
 
-use Wbk\AssetCenter\service\Account\Query;
-use Wbk\AssetCenter\service\Account\Register;
+use Asset\Service\Account\Query;
+use Asset\Service\Account\Register;
 
 /**
  * Class Account
  * @method Query query()
  * @method Register register($account_info)
- * @package Wbk\AssetCenter\service\Factory
+ * @package Asset\service\Asset
  */
 class Account extends Base
 {

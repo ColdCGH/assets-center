@@ -1,15 +1,15 @@
 <?php
 
-namespace Wbk\AssetCenter\Factory;
+namespace Asset\Factory;
 
-use Wbk\AssetCenter\service\AssetType\AddType;
-use Wbk\AssetCenter\service\AssetType\Query;
+use Asset\Service\AssetType\AddType;
+use Asset\Service\AssetType\Query;
 
 /**
  * Class AssetType
  * @method Query query()
  * @method AddType addType($name, $code)
- * @package Wbk\AssetCenter\service\Factory
+ * @package Asset\service\Asset
  */
 class AssetType extends Base
 {

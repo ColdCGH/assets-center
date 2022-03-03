@@ -1,8 +1,8 @@
 <?php
 
-namespace Wbk\AssetCenter\service\Account;
+namespace Asset\Service\Account;
 
-use Wbk\AssetCenter\service\Base;
+use Asset\Service\Base;
 
 class Query extends Base
 {
