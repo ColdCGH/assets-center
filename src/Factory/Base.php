@@ -15,7 +15,7 @@ class Base
         if (strpos($name, '_')) {
             $name = implode('', explode(' ',ucwords(str_replace('_',' ', $name))));
         }
-        $className = 'Asset\\service\\'.$selfName.'\\' . ucfirst($name);
+        $className = 'Asset\\Service\\'.$selfName.'\\' . ucfirst($name);
         if (class_exists($className)){
             return call_user_func_array([new $className(),'run'], $arguments);
         }
