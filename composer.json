@@ -1,0 +1,21 @@
+{
+    "name": "wbk/asset-plug",
+    "description": "wbk/asset-plug",
+    "type": "think-extend",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Wbk\\AssetCenter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "caoganghui",
+            "email": "caoganghui@hnwbk.com"
+        }
+    ],
+    "require": {
+      "ext-curl": "*",
+        "ext-json": "*"
+    }
+}
