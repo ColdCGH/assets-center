@@ -9,7 +9,7 @@ use Asset\Service\AssetType\Query;
  * Class AssetType
  * @method Query query()
  * @method AddType addType($name, $code)
- * @package Asset\service\Asset
+ * @package Asset\Factory\Asset
  */
 class AssetType extends Base
 {

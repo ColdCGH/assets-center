@@ -10,7 +10,7 @@ use Asset\Service\Account\Register;
  * Class Account
  * @method Query query()
  * @method Register register($account_info)
- * @package Asset\service\Asset
+ * @package Asset\Factory\Asset
  */
 class Account extends Base
 {

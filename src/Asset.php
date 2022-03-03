@@ -15,7 +15,7 @@ class Asset
 {
     public static function make($name)
     {
-        $application = "Factory\\{$name}";
+        $application = "Asset\\Factory\\{$name}";
 
         return new $application();
     }
