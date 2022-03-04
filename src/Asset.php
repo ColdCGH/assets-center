@@ -13,7 +13,7 @@ use Asset\Factory\AssetType;
  * @method static AccountAssetsRecord AccountAssetsRecord() 资产流水
  * @method static Assets Assets()      资产管理
  * @method static AssetType AssetType()   资产类型
- * @package sffi
+ * @package Asset
  */
 class Asset
 {

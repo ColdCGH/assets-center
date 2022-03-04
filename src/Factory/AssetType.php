@@ -11,7 +11,7 @@ use Asset\Service\AssetType\Query;
  * @method Query query()
  * @method AddType addType($name, $code)
  * @method Delete delete($code)
- * @package Asset\Factory\Asset
+ * @package Asset\Factory
  */
 class AssetType extends Base
 {
