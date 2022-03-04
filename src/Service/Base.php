@@ -64,7 +64,6 @@ class Base
     public function request()
     {
         $res = RequestUtil::curlPostJson($this->config['url'].$this->router, $this->param, $this->head);
-
         if ($res['code'] == '1'){
             return $res['data'] ?? true;
         }

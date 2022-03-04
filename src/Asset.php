@@ -9,7 +9,7 @@ use Asset\Factory\AssetType;
  * Class Asset
  * @method static Account Account()   资产账号
  * @method static AssetType AssetType()   资产类型
- * @package sffi
+ * @package Asset
  */
 class Asset
 {
