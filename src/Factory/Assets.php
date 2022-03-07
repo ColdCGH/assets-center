@@ -12,13 +12,13 @@ use Asset\Service\Assets\Unfreeze;
 
 /**
  * Class Assets
- * @method Consume consume($assets_type,$assets)
- * @method Frozen frozen($assets_type,$frozen_assets)
- * @method Logout logout($assets_type)
- * @method Query query($assets_type)
- * @method Recharge recharge($assets_type,$assets)
- * @method Transfer transfer($assets_type,$assets,$payee)
- * @method Unfreeze unfreeze($assets_type,$assets)
+ * @method Consume consume($code,$assets,$remark)
+ * @method Frozen frozen($code,$frozen_assets,$remark)
+ * @method Logout logout($code)
+ * @method Query query($code)
+ * @method Recharge recharge($code,$assets,$remark)
+ * @method Transfer transfer($code,$assets,$payeeKey)
+ * @method Unfreeze unfreeze($code,$assets,$remark)
  * @package Asset\Factory\Asset
  */
 class Assets extends Base
