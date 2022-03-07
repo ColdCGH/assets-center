@@ -10,8 +10,8 @@ use Wbk\Asset\Service\Account\Update;
 /**
  * Class Account
  * @method Query query()
- * @method Register register(array $user_info)
- * @method Update update(array $user_info)
+ * @method Register register(array $account_info)
+ * @method Update update(array $account_info)
  * @method Logout logout()
  * @package Asset\Factory\Asset
  */

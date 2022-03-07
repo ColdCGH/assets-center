@@ -8,7 +8,7 @@ class Frozen extends Base
 	protected $router='/assets/frozen';
 
 	protected $args=[
-		'assets_type',
+		'code',
 		'frozen_assets'
 	];
 }

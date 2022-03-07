@@ -8,7 +8,7 @@ class Consume extends Base
 	protected $router='/assets/consume';
 
 	protected $args=[
-		'assets_type',
+		'code',
 		'assets'
 	];
 }

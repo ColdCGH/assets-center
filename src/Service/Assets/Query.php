@@ -9,7 +9,7 @@ class Query extends Base
 	protected $router='/assets/assetQuery';
 
 	protected $args=[
-		'assets_type'
+		'code'
 	];
 
 }

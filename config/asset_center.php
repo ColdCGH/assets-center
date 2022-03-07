@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'url' => '',
+    'url' => 'asset.ljk.com',
     'key' => ''
 ];

@@ -5,7 +5,7 @@ use Wbk\Asset\Service\AccountAssetsRecord\Query;
 
 /**
  * Class AccountAssetsRecord
- * @method Query query($assets_type)
+ * @method Query query($code,$type)
  * @package Asset\Factory\Asset
  */
 class AccountAssetsRecord extends Base

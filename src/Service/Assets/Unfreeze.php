@@ -8,7 +8,7 @@ class Unfreeze extends Base
 	protected $router='/assets/unfreeze';
 
 	protected $args=[
-		'assets_type',
+		'code',
 		'assets'
 	];
 }

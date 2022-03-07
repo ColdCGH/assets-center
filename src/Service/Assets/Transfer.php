@@ -8,8 +8,8 @@ class Transfer extends Base
 	protected $router='/assets/transfer';
 
 	protected $args=[
-		'assets_type',
+		'code',
 		'assets',
-		'payee'
+		'payee_key'
 	];
 }

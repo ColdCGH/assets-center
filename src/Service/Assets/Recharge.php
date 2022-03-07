@@ -8,7 +8,7 @@ class Recharge extends Base
 	protected $router='/assets/recharge';
 
 	protected $args=[
-		'assets_type',
+		'code',
 		'assets'
 	];
 }

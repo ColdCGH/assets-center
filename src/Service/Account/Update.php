@@ -9,6 +9,6 @@ class Update extends Base
 	protected $router='/account/update';
 
 	protected $args = [
-		'user_info'
+		'account_info'
 	];
 }
