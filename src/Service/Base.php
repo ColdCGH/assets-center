@@ -1,11 +1,11 @@
 <?php
 
-namespace Asset\Service;
+namespace Wbk\Asset\Service;
 
 use Exception;
-use Asset\Util\ConfigUtil;
-use Asset\Util\RequestUtil;
-use Asset\Util\StringUtil;
+use Wbk\Asset\Util\ConfigUtil;
+use Wbk\Asset\Util\RequestUtil;
+use Wbk\Asset\Util\StringUtil;
 
 class Base
 {

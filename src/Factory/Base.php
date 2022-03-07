@@ -1,6 +1,6 @@
 <?php
 
-namespace Asset\Factory;
+namespace Wbk\Asset\Factory;
 
 use Exception;
 
