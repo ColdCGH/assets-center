@@ -1,7 +1,7 @@
 <?php
 
-namespace Asset\Factory;
-use Asset\Service\AccountAssetsRecord\Query;
+namespace Wbk\Asset\Factory;
+use Wbk\Asset\Service\AccountAssetsRecord\Query;
 
 /**
  * Class AccountAssetsRecord

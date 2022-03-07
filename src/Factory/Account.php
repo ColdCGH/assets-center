@@ -1,11 +1,11 @@
 <?php
 
-namespace Asset\Factory;
+namespace Wbk\Asset\Factory;
 
-use Asset\Service\Account\Logout;
-use Asset\Service\Account\Query;
-use Asset\Service\Account\Register;
-use Asset\Service\Account\Update;
+use Wbk\Asset\Service\Account\Logout;
+use Wbk\Asset\Service\Account\Query;
+use Wbk\Asset\Service\Account\Register;
+use Wbk\Asset\Service\Account\Update;
 
 /**
  * Class Account

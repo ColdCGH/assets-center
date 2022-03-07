@@ -1,9 +1,9 @@
 <?php
 
-namespace Asset\Service\AssetType;
+namespace Wbk\Asset\Service\AssetType;
 
 
-use Asset\Service\Base;
+use Wbk\Asset\Service\Base;
 
 class Delete extends Base
 {

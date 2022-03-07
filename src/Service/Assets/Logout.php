@@ -1,7 +1,7 @@
 <?php
 
-namespace Asset\Service\Assets;
-use Asset\Service\Base;
+namespace Wbk\Asset\Service\Assets;
+use Wbk\Asset\Service\Base;
 
 class Logout extends Base
 {

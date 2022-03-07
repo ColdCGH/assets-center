@@ -1,11 +1,11 @@
 <?php
 
-namespace Asset;
+namespace Wbk\Asset;
 
-use Asset\Factory\Account;
-use Asset\Factory\AccountAssetsRecord;
-use Asset\Factory\Assets;
-use Asset\Factory\AssetType;
+use Wbk\Asset\Factory\Account;
+use Wbk\Asset\Factory\AccountAssetsRecord;
+use Wbk\Asset\Factory\Assets;
+use Wbk\Asset\Factory\AssetType;
 
 /**
  * Class Asset

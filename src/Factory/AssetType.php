@@ -1,10 +1,10 @@
 <?php
 
-namespace Asset\Factory;
+namespace Wbk\Asset\Factory;
 
-use Asset\Service\AssetType\AddType;
-use Asset\Service\AssetType\Delete;
-use Asset\Service\AssetType\Query;
+use Wbk\Asset\Service\AssetType\AddType;
+use Wbk\Asset\Service\AssetType\Delete;
+use Wbk\Asset\Service\AssetType\Query;
 
 /**
  * Class AssetType
