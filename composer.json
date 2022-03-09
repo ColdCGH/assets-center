@@ -16,7 +16,12 @@
         }
     ],
     "require": {
+        "php": ">=7.4",
         "ext-curl": "*",
-        "ext-json": "*"
+        "ext-json": "*",
+        "composer-plugin-api": "^1.1"
+    },
+    "suggest": {
+        "topthink/think": ">=v5.1.0"
     }
 }
