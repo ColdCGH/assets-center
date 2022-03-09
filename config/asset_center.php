@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'url' => 'asset.ljk.com',
-    'key' => ''
+    'url' => '',
+    'platform_key' => ''
 ];

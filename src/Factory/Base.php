@@ -6,6 +6,13 @@ use Exception;
 
 class Base
 {
+    private string $selfKey;
+
+    public function __construct($key)
+    {
+        $this->selfKey = $key;
+    }
+
     /**
      * @throws Exception
      */
@@ -17,7 +24,7 @@ class Base
         }
         $className = 'Wbk\\Asset\\Service\\'.$selfName.'\\' . ucfirst($name);
         if (class_exists($className)){
-            return call_user_func_array([new $className(),'run'], $arguments);
+            return call_user_func_array([new $className($this->selfKey),'run'], $arguments);
         }
         throw new Exception($className.'不存在');
     }

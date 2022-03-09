@@ -9,6 +9,8 @@ class Frozen extends Base
 
 	protected $args=[
 		'code',
-		'frozen_assets'
+		'frozen_assets',
+        'extra',
+        'remark'
 	];
 }

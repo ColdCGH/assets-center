@@ -29,13 +29,14 @@ class Base
     /**
      * @throws Exception
      */
-    public function __construct()
+    public function __construct(string $selfKey = '')
     {
         $this->config = ConfigUtil::getConfigFile('asset_center.php');
         $this->head['Content-Type'] = "application/json";
         $this->head['Cache-Control'] = "no-cache";
         $this->head['s_id'] = StringUtil::uuid();
-        $this->head['key'] = $this->config['key'];
+        $this->head['key'] = $selfKey;
+        $this->head['platform-key'] = $this->config['platform_key'];
     }
 
     /**
@@ -44,9 +45,6 @@ class Base
     public function run(...$arguments)
     {
         foreach ($this->args as $key => $arg) {
-            if (is_array($this->param) && key_exists($arg, $this->param)) {
-                continue;
-            }
             if (array_key_exists($key, $arguments)){
                 $this->param[$arg] = $arguments[$key];
                 continue;

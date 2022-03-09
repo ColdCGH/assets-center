@@ -12,13 +12,13 @@ use Wbk\Asset\Service\Assets\Unfreeze;
 
 /**
  * Class Assets
- * @method Consume consume($code,$assets,$remark)
- * @method Frozen frozen($code,$frozen_assets,$remark)
+ * @method Consume consume($code,$assets,$extra,$remark)
+ * @method Frozen frozen($code,$frozen_assets,$extra,$remark)
  * @method Logout logout($code)
  * @method Query query($code)
- * @method Recharge recharge($code,$assets,$remark)
- * @method Transfer transfer($code,$assets,$payeeKey)
- * @method Unfreeze unfreeze($code,$assets,$remark)
+ * @method Recharge recharge($code,$assets,$extra,$remark)
+ * @method Transfer transfer($code,$assets,$payeeKey,$extra,$remark)
+ * @method Unfreeze unfreeze($code,$assets,$extra,$remark)
  * @package Asset\Factory\Asset
  */
 class Assets extends Base

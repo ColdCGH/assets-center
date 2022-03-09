@@ -9,6 +9,8 @@ class Consume extends Base
 
 	protected $args=[
 		'code',
-		'assets'
+		'assets',
+        'extra',
+        'remark'
 	];
 }

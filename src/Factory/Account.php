@@ -13,8 +13,9 @@ use Wbk\Asset\Service\Account\Update;
  * @method Register register(array $account_info)
  * @method Update update(array $account_info)
  * @method Logout logout()
- * @package Asset\Factory\Asset
+ * @package Wbk\Asset\Factory
  */
 class Account extends Base
 {
+
 }

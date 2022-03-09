@@ -10,6 +10,8 @@ class Transfer extends Base
 	protected $args=[
 		'code',
 		'assets',
-		'payee_key'
+		'payee_key',
+        'extra',
+        'remark'
 	];
 }

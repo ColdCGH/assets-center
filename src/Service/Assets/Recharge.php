@@ -9,6 +9,8 @@ class Recharge extends Base
 
 	protected $args=[
 		'code',
-		'assets'
+		'assets',
+		'extra',
+		'remark'
 	];
 }
