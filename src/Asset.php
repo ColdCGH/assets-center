@@ -9,7 +9,7 @@ use Wbk\Asset\Factory\Assets;
 
 /**
  * Class Asset
- * @method static Account Account($selfKey)   资产账号
+ * @method static Account Account($selfKey='')   资产账号
  * @method static AccountAssetsRecord AccountAssetsRecord($selfKey) 资产流水
  * @method static Assets Assets($selfKey)      资产管理
  * @package Asset
