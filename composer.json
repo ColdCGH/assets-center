@@ -3,6 +3,7 @@
     "description": "wbk/asset-plug",
     "type": "think-extend",
     "license": "MIT",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "Wbk\\Asset\\": "src/"
